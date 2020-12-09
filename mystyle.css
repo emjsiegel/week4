@@ -1,0 +1,74 @@
+/*FONTS*/
+
+@font-face{
+	font-family: color-basic;
+	arc: url(fonts/color-basic/color basic.ttf);
+}
+@font-face{
+	font-family: monospace;
+}
+
+/*****/
+
+body{
+  display: flex;
+  justify-content: center;
+  Background: repeating-linear-gradient(
+  45deg,
+  #d3ccd6,
+	#ecdbfc 10px,
+	#f2edf7 10px,
+	#a6c5f4 20px
+)
+}
+
+h1{
+  font-family: color basic;
+}
+#container{
+  position: relative;
+  top: 100px;
+  width: 500px
+}
+
+#hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+#hero-image img {
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+#content-box{
+  background: #FFF;
+  padding:15px;
+  margin-bottom: 15px;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, .05);
+}
+
+ul {
+  position: relative;
+  margin-bottom:30px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  margin:10px;
+}
+
+a{
+  font-family: monospace;
+  text-decoration: none;
+  padding: 5px;
+  color: black
+}
+
+a:hover{
+  background: lavender;
+
+}
